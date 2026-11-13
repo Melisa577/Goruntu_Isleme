@@ -1,0 +1,28 @@
+{
+    "pipeline_name": "Pipeline 1",
+    "input": "Grayscale original image",
+    "preprocessing": "None",
+    "segmentation": {
+        "method": "Fixed Threshold",
+        "threshold": 25
+    },
+    "morphology": {
+        "operation_order": [
+            "Opening",
+            "Closing"
+        ],
+        "kernel_shape": "ELLIPSE",
+        "kernel_size": [
+            3,
+            3
+        ]
+    },
+    "connected_components": {
+        "connectivity": 8,
+        "minimum_area": 50
+    },
+    "counting": "Number of connected components with area >= 50",
+    "selected_using": "Validation MAE",
+    "validation_MAE": 1.8,
+    "validation_RMSE": 2.408319
+}
