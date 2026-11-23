@@ -1,0 +1,16 @@
+filename,pipeline,predicted_count,ground_truth,absolute_error,squared_error,processing_time
+t003.tif,Pipeline 1,19,23,4,16,0.031327
+t003.tif,Pipeline 2,17,23,6,36,0.066098
+t003.tif,Pipeline 3,19,23,4,16,0.046514
+t038.tif,Pipeline 1,24,24,0,0,0.031437
+t038.tif,Pipeline 2,18,24,6,36,0.058254
+t038.tif,Pipeline 3,23,24,1,1,0.031511
+t041.tif,Pipeline 1,21,24,3,9,0.027633
+t041.tif,Pipeline 2,21,24,3,9,0.077114
+t041.tif,Pipeline 3,24,24,0,0,0.059454
+t042.tif,Pipeline 1,22,24,2,4,0.049766
+t042.tif,Pipeline 2,20,24,4,16,0.083686
+t042.tif,Pipeline 3,27,24,3,9,0.03625
+t045.tif,Pipeline 1,24,24,0,0,0.053969
+t045.tif,Pipeline 2,18,24,6,36,0.063168
+t045.tif,Pipeline 3,30,24,6,36,0.069228
