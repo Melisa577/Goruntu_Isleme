@@ -1,5 +1,3 @@
-* Görüntü İşleme
-
 Bu proje, mikroskobik görüntülerde hücrelerin klasik görüntü işleme yöntemleri kullanılarak bölütlenmesini ve sayılmasını amaçlamaktadır. Ayrıca ardışık görüntüler üzerinden hücre sayısındaki zamansal değişimler incelenmektedir.
 
 Çalışmada derin öğrenme yöntemleri kullanılmamıştır.
