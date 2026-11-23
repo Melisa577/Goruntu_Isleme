@@ -1,0 +1,34 @@
+experiment_id,category,parameters,frames_evaluated,MAE
+EXP_001,Area Filtering,min_area=10,10,43.0
+EXP_002,Area Filtering,min_area=20,10,15.5
+EXP_003,Area Filtering,min_area=30,10,9.6
+EXP_004,Area Filtering,min_area=50,10,6.2
+EXP_005,Area Filtering,min_area=100,10,7.1
+EXP_006,Intensity Enhancement,method=CLAHE,10,3.1
+EXP_007,Intensity Enhancement,method=Contrast Stretching,10,3.5
+EXP_008,Intensity Enhancement,method=Histogram Equalization,10,422.9
+EXP_009,Intensity Enhancement,method=Original,10,6.2
+EXP_010,Filtering,filter=Gaussian 3x3,10,3.2
+EXP_011,Filtering,filter=Gaussian 5x5,10,4.1
+EXP_012,Filtering,filter=Median 3x3,10,2.6
+EXP_013,Filtering,filter=No Filter,10,3.1
+EXP_014,Filtering,filter=Sharpening,10,2.5
+EXP_015,Segmentation,method=Adaptive,10,12.7
+EXP_016,Segmentation,method=Fixed 25,10,3.5
+EXP_017,Segmentation,method=Fixed 35,10,6.6
+EXP_018,Segmentation,method=Fixed 45,10,7.5
+EXP_019,Segmentation,method=Otsu,10,6.2
+EXP_020,Morphology,"operation=Closing, kernel_size=3",10,2.4
+EXP_021,Morphology,"operation=Closing, kernel_size=5",10,3.9
+EXP_022,Morphology,"operation=Dilation, kernel_size=3",10,3.7
+EXP_023,Morphology,"operation=Dilation, kernel_size=5",10,6.4
+EXP_024,Morphology,"operation=Erosion, kernel_size=3",10,8.4
+EXP_025,Morphology,"operation=Erosion, kernel_size=5",10,7.4
+EXP_026,Morphology,"operation=Opening, kernel_size=3",10,3.8
+EXP_027,Morphology,"operation=Opening, kernel_size=5",10,7.6
+EXP_028,Morphology Order,method=Closing then Opening,10,3.6
+EXP_029,Morphology Order,method=No Morphology,10,3.5
+EXP_030,Morphology Order,method=Opening then Closing,10,2.2
+EXP_031,Complete Pipeline,pipeline=Pipeline 1,10,2.2
+EXP_032,Complete Pipeline,pipeline=Pipeline 2,10,3.1
+EXP_033,Complete Pipeline,pipeline=Pipeline 3,10,6.8
