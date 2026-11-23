@@ -88,3 +88,11 @@ Proje Dosyaları
 Sonuç
 
 Bu çalışma, klasik görüntü işleme yöntemlerinin hücre segmentasyonu ve sayımı üzerindeki etkilerini karşılaştırmalı olarak incelemektedir. Elde edilen sonuçlar, farklı görüntü dizilerinde performansın değişebileceğini ve bağımsız test değerlendirmenin önemini ortaya koymaktadır.
+
+
+Veri Setinin Resmî İndirme Bağlantısı
+
+- Cell Tracking Challenge (2D+Time): https://celltrackingchallenge.net/2d-datasets/
+- Fluo-N2DH-GOWT1 eğitim veri seti (01 ve 02 dizileri ile mevcut referans anotasyonları içerir): https://data.celltrackingchallenge.net/training-datasets/Fluo-N2DH-GOWT1.zip
+
+Not: Bu projedeki bağımsız test bölümü, yukarıdaki eğitim arşivinin 02 dizisinden seçilmiştir; Cell Tracking Challenge sitesindeki ayrı ve anotasyonsuz yarışma test arşivi kullanılmamıştır. Veri seti görüntüleri ve GT maskeleri bu depoya yüklenmemelidir.
